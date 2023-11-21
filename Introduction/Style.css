@@ -1,0 +1,213 @@
+body{
+    background:linear-gradient(90deg, rgba(173, 216, 230, 0.5), rgba(0, 0, 255, 0.5));
+}
+
+h1 {
+    color: white;
+    background: linear-gradient(90deg, aqua, rgb(1, 1, 122));
+    border-top: solid 5px black;
+    border-bottom: solid 5px black;
+
+    font-size: 40px; 
+    text-align: center;
+
+    margin: 10px 0px 10px 0px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+
+    margin: 0px 0px 20px 0px;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+}
+h3#title {
+    border-bottom: solid 3px black;
+    width: 400px;
+}
+
+ul {
+    list-style: none;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.3em;
+}
+a#top {
+    text-decoration: none;
+    color: blue;
+    background: linear-gradient(60deg, white, aqua);
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+}
+div.alert {
+    border: solid 3px black;
+    border-radius: 5px;
+}
+div#t {
+    width: 500px;
+    text-align: left;
+}
+.alert p {
+    margin: 10px 0 0 0;
+    padding: 0px;
+    text-decoration-line: underline;
+}
+.alert li {
+    text-align: center;
+    font-size: 0.7em;
+    margin: 10px 0 10px 0;
+}
+
+#portrait {
+    width: 200px;
+    border: solid 5px white;
+    border-radius: 7px;
+}
+#laying {
+    width: 400px;
+    margin: 20px 0 20px 0;
+
+    border: solid 5px white;
+    border-radius: 7px;
+}
+.mini-lay {
+    height: 150px;
+    border: solid 5px white;
+    border-radius: 7px;
+}
+
+div.flex2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+div.flex {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 50px 0;
+}
+div#top {
+    margin: 0px;
+}
+.flex div{
+    padding: 0px 50px 0px 50px; 
+}
+.flex div.top {
+    padding: 0px;
+}
+
+.flex div.text{
+    width: 450px;
+}
+.flex ul {
+    list-style: none;
+    font-size: 1.45em;
+    text-align: left;
+
+    margin: 0px;
+    padding: 0px;
+}
+.flex ul.title {
+    background: linear-gradient(60deg, white, aqua);
+    border-radius: 10px;
+    padding: 0 0 0 10px;
+}
+.flex ul#s-ocean{
+    background: linear-gradient(60deg, rgb(55, 130, 245), blue);
+    color: white;
+}
+.flex ul#d-zone{
+    background: linear-gradient(60deg, red, black);
+    color: white;
+}
+.flex ul#s-heaven{
+    background: linear-gradient(60deg, rgb(0, 0, 170), rgb(80, 0, 80));
+    color: white;
+}
+.flex div#s-ocean{
+    background: linear-gradient(60deg, rgb(55, 130, 245), blue);
+    border-radius: 10px;
+    margin: 30px 0 0 0;
+    padding: 0 10px 0 10px;
+    color: white;
+}
+.flex div#d-zone {
+    background: linear-gradient(60deg, red, black);
+    border-radius: 10px;
+    margin: 30px 0 0 0;
+    padding: 0 10px 0 10px;
+    color: white;
+}
+.flex div#s-heaven {
+    background: linear-gradient(60deg, rgb(0, 0, 170), rgb(80, 0, 80));
+    border-radius: 10px;
+    margin: 30px 0 0 0;
+    padding: 0 10px 0 10px;
+    color: white;
+}
+.flex p {
+    text-align: left;
+    font-size: 1.3em;
+    padding: 10px 0 10px 0;
+    margin: 0 0 10px 0;
+}
+.flex p#container {
+    margin: 25px 0 25px 0;
+}
+.flex p#alert{
+    font-size: 1em;
+    padding:20px 0px 0px 0px;
+}
+.flex p#course{
+    font-size: 1.3em;
+    text-align: center;
+    padding:20px 0px 10px 0px;
+}
+.flex .image {
+    padding: 0.5em 0.5em;
+    border: double 5px  blue;
+}
+
+.nav ul {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav li {
+    width: 100px;
+    margin: 0px;
+    padding: 20px 10px 20px 10px; 
+    font-weight: bold;
+    font-size: 0.8em;
+    text-align: center;
+
+    background: linear-gradient(150deg, aqua, rgb(1, 1, 122));
+    border: solid 3px;
+    border-radius: 5px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    font-size: 1em;
+    padding: 5px;
+
+    background-color: gray;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+}
